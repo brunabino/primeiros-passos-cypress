@@ -69,6 +69,7 @@ class InfoPage {
         cy.get(this.selectorList().commentField).clear().type(commentField)
     }
 
-}
+} 
+
 
 export default InfoPage
