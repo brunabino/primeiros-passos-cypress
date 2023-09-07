@@ -53,9 +53,9 @@ class MenuPage {
         cy.get(this.selectorsList().directoryButton).click()
     }
     
-    accessMaintenance() {
-        cy.get(this.selectorsList().maintenanceButton).click()
-    }
+    // accessMaintenance() {
+    //     cy.get(this.selectorsList().maintenanceButton).click()
+    // }
 
     accessClaim() {
         cy.get(this.selectorsList().claimButton).click()
